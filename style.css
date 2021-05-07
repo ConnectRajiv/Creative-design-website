@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+    
+ .content-box{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./meeting.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+.menu{
+    /* background-color: rgba(194, 55, 55, 0); */
+    display: inline-flex;}
+    .menu img{
+        height: 100px;
+        margin: 20px 0,0 110px;
+        cursor: pointer;
+    }
+    .btn{
+        padding: 5px 20px;
+        background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+        color: black;font-size: 20px;
+        border-radius: 20px;
+        border: 0;
+        position: absolute;
+        right: 10%;
+        top: 5%;
+
+    }
+     .btn i{
+        margin-right: 10px;
+
+    }
+    .banner-text{
+        width: 80%;
+        color: #fff;
+        margin: 16% auto 0;
+        text-align: center;
+    }
+    .banner-text h2{
+        margin-top: 50px;
+        font-size: 70px;
+    }
+    .banner-text p{
+        font-size: 20px;
+        margin: 20px 0 50px;
+    }
+    .banner-text a{
+        text-decoration: none;
+        color: #fff;
+        border: solid #fff 1px;
+        display: block;
+        padding: 12px;
+        width: 188px;
+        margin: auto;
+        background: palevioletred;
+        font-size: 16px;
+        transition: 0.5s;
+
+
+    }
+    .banner-text a:hover{
+        background: transparent;
+        color: #fff;
+        
+    }
+    /* service */
+    .raju{
+        background: turquoise;
+        height: 100vh;
+        width: 100%;
+    }
+    .container h1{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 50px;
+        color: rgb(12, 1, 1);
+    }
+    .container h1::after{
+        content: '';
+        background: #ff4d73;
+        display: block;
+        height: 3px;
+        width: 200px;
+        margin: 11px auto 50px;
+    }
+    .service .icon{
+        font-size: 40px;
+        margin: 20px auto ;
+        padding: 14px auto 3px;
+        height: 70px;
+        width: 70px;
+        border: 1px solid #ff4d73;
+        border-radius: 50px;
+        text-align: center;
+        color: #ff4d73;
+    }
+    .service p{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 40px;
+        color: #777;
+        padding: 20px ;
+        width: 200px;
+        text-align: center;
+    }
+    .service span{
+        color: #ff4d73;
+        margin: 4px ;
+    }
+    .service .column{
+        width: 330px;
+    }
+    .container h3{
+        text-align: center;
+    }
+    .row .column:hover{
+        background: #ff4d73;
+        cursor: pointer;
+        color: #fff;
+        box-shadow: -5px 5px 10px 0 rgba(0, 0,0, 0.4);
+        transition: 0.5s;
+    }
+    .row .column:hover .icon{
+        border: 1px solid #fff;
+        color: #fff;
+
+    }
+    .row .column:hover p{
+        color: #fff;
+    }
+    .row .column:hover span{
+        color:#000;
+    }
+    /*----------Features----------*/
+
+    .bhanu{
+        background: turquoise;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .feature h2{
+        margin-top: 130px;
+    }
+    .feature h2::after{
+        content: '';
+        background: #ff4d73;
+        display: block;
+        height: 3px;
+        width: 200px;
+        margin: 11px auto 50px;
+        position: absolute;
+        left: 17px;
+        
+    }
+    .feature ul{
+        margin-top: 30px;
+        margin-left: 50px;
+        list-style-type:none;
+        
+    }
+    .feature ul li{
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .feature ul li::after{
+        content: '';
+        height: 7px;
+        width: 7px;
+        background: #ff4d73;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 17px;
+        left: -25px;
+    }
+   
+    .feature .img-fl{
+        margin-top: 30px;
+        width: 500px;
+        height: auto;
+        }
+        /*<--------- footer----------> */
+        .rajiv{
+            background:turquoise;
+            height: 100%;
+            width: 100%; 
+        }
+        .footer .form-control{
+            width: 600px;
+            border-radius: 0 !important;
+            /* border : 2px solid black !important; */
+            box-shadow: none !important;
+            margin: 10px  0;
+            position: relative;
+        }
+        .footer h1{
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        .footer h1::after{
+            content: '';
+        background: #ff4d73;
+        display: block;
+        height: 3px;
+        width: 200px;
+        margin: 11px auto 50px;
+        position: absolute;
+        left: 655px;
+        
+        }
+        .footer .contact-form{
+            padding: 15px;
+        }
+        ::placeholder{
+            font-size: 15px;
+        }
+        .footer button{
+            border: none;
+            background: #ff4d73;
+           box-shadow: none;
+           border-radius: 0;
+           padding: 1vh;
+
+        }
+        .footer .contact-info  .follow{
+           background-color: #fff;  
+           padding: 8px;
+           margin: 15px;
+           width: 500px;
+        }
+        .footer .contact-info  .follow .fa{
+            margin: 10px;
+            font-size: 20px;
+            color: #ff4d73;
+            font-weight: bold;
+            padding-right: 20px;
+        }
+        .footer .contact-info  .follow .fas{
+            margin: 10px;
+            font-size: 20px !important;
+            color: #ff4d73 !important;
+            font-weight: bold;
+            padding-right: 20px;
+        }
+        .footer .contact-info  .follow span{
+            font-size: 14px;
+        }
+        .footer .fab{
+            margin: 10px;
+            font-size: 20px;
+            color: #ff4d73;
+        }
+        .footer hr{
+            margin-top: 50px;
+            background: #ff4d73;
+        }
+    .column-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.features{
+    display: flex;
+}
+
+.column-3{
+    position: absolute;
+    left: 60%;
+    top:220%;
+}
+
+
+
+        
+    
+
+
+
+    
+
